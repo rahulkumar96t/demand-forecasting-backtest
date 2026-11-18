@@ -1,0 +1,17 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Downloaded and generated data (reports/ is committed as an example run)
+data/
+reports/**/points.csv.gz
+
+.DS_Store
